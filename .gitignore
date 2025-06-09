@@ -1,0 +1,24 @@
+# Hugo output
+/public/
+/resources/
+
+# Hugo module cache
+hugo_stats.json
+
+# macOS
+.DS_Store
+
+# Node modules (if you ever add npm for custom JS/CSS)
+node_modules/
+
+# VSCode settings (optional)
+.vscode/
+
+# Local environment files
+.env
+.env.*
+
+# Backup files
+*.bak
+*.swp
+*.tmp
