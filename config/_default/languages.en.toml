@@ -1,23 +1,23 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Blowfish"
+title = "Eunice Socorin"
 
 [params]
   displayName = "English"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/blowfish_logo_transparent.png"
-  description = "A powerful, lightweight theme for Hugo."
+  logo = "img/em_avatar.png"
+  description = "Software engineer passionate about building things using automation with a DevOps lens"
 
 [params.author]
-  name = "Blowfish"
-  email = "nuno@n9o.xyz"
-  image = "img/blowfish_logo.png"
-  headline = "A powerful, lightweight theme for Hugo."
-  bio = "A powerful, lightweight theme for Hugo."
+  name = "Eunice Socorin"
+  email = "eunice.socorin@gmail.com"
+  image = "img/em_avatar.png"
+  headline = "Software Engineer | Cloud & Automation Enthusiast"
+  bio = "Hi, I'm Eunice. I love building things using automation with a DevOps lens and sharing what I learn along the way."
   links = [
-    { x-twitter = "https://twitter.com/burufugu" },
-    { github = "https://github.com/nunocoracao/blowfish" },
+    { github = "https://github.com/em-scrn/buildwithem-site" },
+    { linkedin = "https://www.linkedin.com/in/eunice-socorin/" },
   ]

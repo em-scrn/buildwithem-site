@@ -1,24 +1,37 @@
-# Hugo output
+# Hugo build output
 /public/
-/resources/
+/resources/_gen/
+/hugo_stats.json
 
-# Hugo module cache
-hugo_stats.json
+# Hugo cache
+/.hugo_build.lock
 
-# macOS
-.DS_Store
-
-# Node modules (if you ever add npm for custom JS/CSS)
-node_modules/
-
-# VSCode settings (optional)
-.vscode/
-
-# Local environment files
+# Local environment
 .env
-.env.*
+*.env
 
-# Backup files
-*.bak
+# Node modules (if using npm for assets)
+/node_modules/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs/editors
+.vscode/
+.idea/
 *.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.bak
 *.tmp
+*~
+
+# GitHub Actions artifacts
+*.tfplan
+*.zip
+*.tar.gz
