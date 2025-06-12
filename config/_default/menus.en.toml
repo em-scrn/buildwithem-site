@@ -12,17 +12,17 @@
 
 [[main]]
   name = "Blog"
-  pageRef = "/blog"
+  pageRef = "blog"
   weight = 10
 
 [[main]]
   name = "About"
-  pageRef = "/about"
+  pageRef = "about"
   weight = 20
 
 [[main]]
   name = "Resume"
-  pageRef = "/resume"
+  pageRef = "resume"
   weight = 30
 
 # -- Footer Menu --

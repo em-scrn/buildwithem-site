@@ -3,7 +3,7 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://www.buildwithem.com"
+baseURL = "https://www.buildwithem.com/"
 defaultContentLanguage = "en"
 disableLanguages = ["it", "ja", "zh-cn"] #to allow translation work requiring shipping to production
 
