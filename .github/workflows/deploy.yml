@@ -34,21 +34,19 @@ jobs:
 
     - name: Deploy to S3
       run: |
-        # Sync files with optimized caching headers
-        aws s3 sync public/ s3://${{ secrets.S3_BUCKET_NAME }} \
-          --delete \
-          --cache-control "max-age=31536000" \
-          --exclude "*.html" \
-          --exclude "*.xml" \
-          --exclude "*.json"
-        
-        # Sync HTML files with shorter cache
-        aws s3 sync public/ s3://${{ secrets.S3_BUCKET_NAME }} \
-          --delete \
+        # Sync all files first
+        aws s3 sync public/ s3://${{ secrets.S3_BUCKET_NAME }} --delete
+    
+        # Set specific cache headers for different file types
+        aws s3 cp public/ s3://${{ secrets.S3_BUCKET_NAME }} --recursive \
+          --exclude "*" --include "*.html" \
           --cache-control "max-age=3600" \
-          --include "*.html" \
-          --include "*.xml" \
-          --include "*.json"
+          --metadata-directive REPLACE
+        
+        aws s3 cp public/ s3://${{ secrets.S3_BUCKET_NAME }} --recursive \
+          --exclude "*.html" \
+          --cache-control "max-age=31536000" \
+          --metadata-directive REPLACE
 
     - name: Invalidate CloudFront
       run: |
