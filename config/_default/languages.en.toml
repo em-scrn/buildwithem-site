@@ -1,20 +1,20 @@
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = "Eunice Socorin"
+title = "Eunice Socorin<span class='terminal-cursor'>_</span>"
 
 [params]
   displayName = "English"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/em_avatar.png"
+  logo = ""
   description = "Software engineer passionate about building things using automation with a DevOps lens"
 
 [params.author]
   name = "Eunice Socorin"
   email = "eunice.socorin@gmail.com"
-  image = "img/em_avatar.png"
+  image = "img/avatar.svg"
   headline = "Software Engineer | Cloud & Automation Enthusiast"
   bio = "Hi, I'm Eunice. I love building things using automation with a DevOps lens and sharing what I learn along the way."
   links = [

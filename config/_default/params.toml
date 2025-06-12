@@ -24,16 +24,16 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-defaultBackgroundImage = "/img/background.svg"
-defaultFeaturedImage = "/img/featured.svg"
-defaultSocialImage = "/img/em_avatar.png"
+# defaultBackgroundImage = "/img/background.svg"
+# efaultFeaturedImage = "/img/featured.svg"
+# defaultSocialImage = "/img/em_avatar.png"
 
 highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = false
 
 [header]
-  layout = "basic" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+  layout = "fixed-fill" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
   showCopyright = true
@@ -42,46 +42,47 @@ smartTOCHideUnfocusedChildren = false
   showScrollToTop = true
 
 [homepage]
-  layout = "profile" # valid options: page, profile, hero, card, background, custom
-  # homepageImage = "/img/iceland.jpg" # used in: hero, and card
-  showRecent = true
+  layout = "card" # valid options: page, profile, hero, card, background, custom
+  homepageImage = "img/avatar.svg" # used in: hero, and card
+  showRecent = false
   showRecentItems = 2
-  showMoreLink = true
+  showMoreLink = false
   showMoreLinkDest = "blog"
   cardView = false
   cardViewScreenWidth = true
-  layoutBackgroundBlur = true # only used when layout equals background
-  disableHeroImageFilter = false # only used when layout equals hero
+  #layoutBackgroundBlur = true # only used when layout equals background
+  #disableHeroImageFilter = false # only used when layout equals hero
 
 [article]
-  showDate = false
+  showDate = true
   showViews = false
   showLikes = false
   showDateOnlyInArticle = false
   showDateUpdated = false
   showAuthor = false
   # showAuthorBottom = false
-  showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
-  layoutBackgroundBlur = true # only used when heroStyle equals background
+  showHero = false
+  heroStyle = "big" # valid options: basic, big, background, thumbAndBackground
+  # layoutBackgroundBlur = true # only used when heroStyle equals background
   showBreadcrumbs = true
   showDraftLabel = true
-  showEdit = true
-  editURL = "https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content"
+  showEdit = false
+  # editURL = "https://github.com/nunocoracao/blowfish/tree/main/exampleSite/content"
   editAppendPath = true
   seriesOpened = false
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
-  showReadingTime = true
+  showReadingTime = false
   showTableOfContents = true
-  showRelatedContent = true
-  relatedContentLimit = 6
+  showRelatedContent = false
+  relatedContentLimit = 2
   showTaxonomies = true 
-  showAuthorsBadges = true 
+  showAuthorsBadges = false 
   showWordCount = false
-  sharingLinks = [ "linkedin", "twitter", "bluesky", "reddit", "whatsapp", "telegram", "pinterest", "facebook", "email"]
-  showZenMode = true
+  sharingLinks = [ "linkedin", "twitter", "reddit", "facebook", "email"]
+  #showZenMode = true
+  constrainItemsWidth = false
 
 [list]
   showHero = true
@@ -93,10 +94,10 @@ smartTOCHideUnfocusedChildren = false
   showViews = false
   showLikes = false
   showTableOfContents = true
-  showCards = true
+  showCards = false
   orderByWeight = true
   groupByYear = false
-  cardView = true
+  cardView = false
   cardViewScreenWidth = false
   constrainItemsWidth = false
 
@@ -140,11 +141,11 @@ smartTOCHideUnfocusedChildren = false
   # enableTrackEvent = false
 
 [buymeacoffee]
-  identifier = "nunocoracao"
-  globalWidget = false
-  globalWidgetMessage = ""
-  globalWidgetColor = "#FFDD00"
-  globalWidgetPosition = "Right"
+  # identifier = "nunocoracao"
+  # globalWidget = false
+  # globalWidgetMessage = ""
+  # globalWidgetColor = "#FFDD00"
+  # globalWidgetPosition = "Right"
 
 [verification]
   # google = ""

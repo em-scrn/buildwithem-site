@@ -1,0 +1,29 @@
+/* Fine-tune alignment between main content and TOC */
+.prose h2:first-of-type,
+.article-content h2:first-of-type {
+  margin-top: 1.5rem; /* Add some space back */
+  padding-top: 0;
+}
+
+/* Keep TOC at top */
+.toc-container,
+.table-of-contents {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* True terminal cursor: instant on/off blink */
+.terminal-cursor {
+  color: rgba(var(--color-primary-400), 1);
+  animation: blink 1s infinite;
+  opacity: 1;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}

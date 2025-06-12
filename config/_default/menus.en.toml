@@ -22,13 +22,7 @@
 
 [[main]]
   name = "Resume"
-  parent = "About"
   pageRef = "resume"
-  weight = 25
-
-[[main]]
-  name = "Contact"
-  pageRef = "contact"
   weight = 30
 
 # -- Footer Menu --
