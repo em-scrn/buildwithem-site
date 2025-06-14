@@ -37,19 +37,3 @@
   border: 3px solid rgba(var(--color-primary-400), 0.3);
   margin: 1rem 0;
 }
-
-/* Float avatar to the right on larger screens */
-.avatar-float-right {
-  float: right;
-  margin-left: 2rem;
-  margin-bottom: 1rem;
-}
-
-/* Center avatar on mobile */
-@media (max-width: 768px) {
-  .avatar-float-right {
-    float: none;
-    display: block;
-    margin: 1rem auto;
-  }
-}
