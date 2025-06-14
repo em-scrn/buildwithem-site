@@ -1,5 +1,5 @@
 ---
-title: "DevOps Musings"
+title: "Blog"
 description: "Technical insights, lessons learned, and thoughts on DevOps practices"
 ---
 
