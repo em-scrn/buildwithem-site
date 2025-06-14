@@ -1,7 +1,7 @@
 /* Fine-tune alignment between main content and TOC */
 .prose h2:first-of-type,
 .article-content h2:first-of-type {
-  margin-top: 1.5rem; /* Add some space back */
+  margin-top: 1.5rem;
   padding-top: 0;
 }
 
@@ -12,7 +12,7 @@
   padding-top: 0;
 }
 
-/* True terminal cursor: instant on/off blink */
+/* Terminal cursor class */
 .terminal-cursor {
   color: rgba(var(--color-primary-400), 1);
   animation: blink 1s infinite;
@@ -38,36 +38,10 @@
   margin: 1rem 0;
 }
 
-/* Add terminal cursor to site title in header */
-.site-title::after,
-h1.site-title::after,
-.header-title::after,
-.site-brand::after {
+/* Add terminal cursor to header using the same animation */
+nav.flex a.text-base.font-medium::after {
   content: "_";
   color: rgba(var(--color-primary-400), 1);
-  animation: terminal-blink 1s steps(2, start) infinite;
-  margin-left: 2px;
-}
-
-/* Terminal cursor animation */
-@keyframes terminal-blink {
-  0% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-/* More specific targeting for Blowfish theme */
-header h1 a::after,
-.header h1::after,
-nav h1::after {
-  content: "_";
-  color: rgba(var(--color-primary-400), 1);
-  animation: terminal-blink 1s steps(2, start) infinite;
+  animation: blink 1s infinite;
   margin-left: 2px;
 }
