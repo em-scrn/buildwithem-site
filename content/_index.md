@@ -3,9 +3,9 @@ title: "Eunice Socorin<span class='terminal-cursor'>_</span>"
 description: "Welcome to my digital space where I share insights about cloud infrastructure, automation, and DevOps practices."
 ---
 
-<img src="img/em_avatar.svg" alt="Eunice Socorin Avatar" class="avatar-small" style="left; margin: 1rem;"/>
-
 ## Hi, Kia Ora! 👋
+
+<img src="./img/em_avatar.svg" alt="Eunice Socorin Avatar" class="avatar-small" style="float: left; margin: -1rem 2rem -1rem 1rem;"/>
 
 I'm a DevOps Engineer passionate about building reliable, scalable infrastructure and automating all the things. This site is both my portfolio and my learning journal - a place where I document my journey through the ever-evolving world of cloud technologies.
 
