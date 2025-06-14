@@ -24,10 +24,6 @@ disableImageOptimizationMD = false
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
-# defaultBackgroundImage = "/img/background.svg"
-# efaultFeaturedImage = "/img/featured.svg"
-# defaultSocialImage = "/img/em_avatar.png"
-
 highlightCurrentMenuArea = true
 smartTOC = true
 smartTOCHideUnfocusedChildren = false
@@ -43,7 +39,7 @@ smartTOCHideUnfocusedChildren = false
 
 [homepage]
   layout = "card" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/avatar.svg" # used in: hero, and card
+  # homepageImage = "img/avatar.svg" # used in: hero, and card
   showRecent = false
   showRecentItems = 2
   showMoreLink = false

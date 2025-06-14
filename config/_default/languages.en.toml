@@ -8,7 +8,7 @@ title = "Eunice Socorin<span class='terminal-cursor'>_</span>"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = ""
+  # logo = "img/avatar.svg"
   description = "Software engineer passionate about building things using automation with a DevOps lens"
 
 [params.author]

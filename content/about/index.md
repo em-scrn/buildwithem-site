@@ -7,9 +7,11 @@ showReadingTime: false
 
 ---
 
+<img src="/img/avatar.svg" alt="Eunice Socorin Avatar" class="avatar-small" style="float: right; margin: 0 0 2rem 2rem;">
+
 ## My Journey
 
-I started my technical career providing operathttp://localhost:1313/about/img/em_avatar.svgional support for Sky TV systems, where I discovered my passion for troubleshooting, streamlining processes, and efficiency. Using my knowledge of Sky TV systems, I moved to Vodafone NZ troubleshooting broadband and hardware issues. I was able to join the Vodafone Discover Graduate program where I gained exposure to the telco and IT business.
+I started my technical career providing operational support for Sky TV systems, where I discovered my passion for troubleshooting, streamlining processes, and efficiency. Using my knowledge of Sky TV systems, I moved to Vodafone NZ troubleshooting broadband and hardware issues. I was able to join the Vodafone Discover Graduate program where I gained exposure to the telco and IT business.
 
 I then did a rotation in the internal OSS DevOps team where I fostered my curiosity for automation using scripts with bash and python, and robotic-process automation (RPA). The transition to cloud-first DevOps opened up a world of possibilities, from Infrastructure as Code to event-driven architectures.
 
