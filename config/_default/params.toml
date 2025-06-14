@@ -39,7 +39,7 @@ smartTOCHideUnfocusedChildren = false
 
 [homepage]
   layout = "page" # valid options: page, profile, hero, card, background, custom
-  # homepageImage = "img/avatar.svg" # used in: hero, and card
+  homepageImage = "img/em_avatar.svg" # used in: hero, and card
   showRecent = false
   showRecentItems = 2
   showMoreLink = false
