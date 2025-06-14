@@ -95,21 +95,5 @@ Manukau Institute of Technology (Auckland, New Zealand), 2015 - 2018
 
 ---
 
-## Core Competencies
-
-### Technical Leadership
-- **DevOps Implementation**: Successfully championed DevOps best practices across multiple organizations
-- **Process Improvement**: Consistently delivered significant time and cost savings through automation
-- **Team Collaboration**: Experienced in cross-functional collaboration with QA, development, and operations teams
-
-### Cloud & Infrastructure Expertise
-- **AWS Specialist**: Extensive hands-on experience with 15+ AWS services in production environments
-- **Infrastructure as Code**: Proven expertise in Terraform with measurable impact on deployment efficiency
-- **Event-Driven Architecture**: Experience migrating from legacy batch processes to modern cloud-native solutions
-
-### Automation & Testing
-- **Test Automation**: Built comprehensive testing frameworks reducing manual testing from days to minutes
-- **RPA Implementation**: Saved 28+ hours monthly through intelligent process automation
-- **CI/CD Optimization**: Streamlined build pipelines and implemented quality gates for reliable releases
 
 *References available upon request*

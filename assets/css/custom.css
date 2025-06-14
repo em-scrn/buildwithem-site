@@ -37,3 +37,37 @@
   border: 3px solid rgba(var(--color-primary-400), 0.3);
   margin: 1rem 0;
 }
+
+/* Add terminal cursor to site title in header */
+.site-title::after,
+h1.site-title::after,
+.header-title::after,
+.site-brand::after {
+  content: "_";
+  color: rgba(var(--color-primary-400), 1);
+  animation: terminal-blink 1s steps(2, start) infinite;
+  margin-left: 2px;
+}
+
+/* Terminal cursor animation */
+@keyframes terminal-blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* More specific targeting for Blowfish theme */
+header h1 a::after,
+.header h1::after,
+nav h1::after {
+  content: "_";
+  color: rgba(var(--color-primary-400), 1);
+  animation: terminal-blink 1s steps(2, start) infinite;
+  margin-left: 2px;
+}
