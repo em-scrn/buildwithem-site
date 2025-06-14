@@ -3,7 +3,7 @@ title: "Eunice Socorin<span class='terminal-cursor'>_</span>"
 description: "Welcome to my digital space where I share insights about cloud infrastructure, automation, and DevOps practices."
 ---
 
-<img src="buildwithem-site/assets/img/em_avatar.svg" alt="Eunice Socorin Avatar" class="avatar-small" style="left; margin: 1rem;"/>
+<img src="img/em_avatar.svg" alt="Eunice Socorin Avatar" class="avatar-small" style="left; margin: 1rem;"/>
 
 ## Hi, Kia Ora! 👋
 
