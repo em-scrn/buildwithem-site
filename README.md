@@ -160,23 +160,6 @@ The AWS infrastructure for this site is managed separately in the [buildwithem-i
 - Route53 for DNS management
 - ACM for SSL certificates
 
-## 📝 Blog Content
-
-This blog focuses on DevOps practices, cloud architecture, and automation strategies. Recent topics include:
-
-- **AI-Assisted Development**: Using Claude AI to accelerate development workflows
-- **Infrastructure as Code**: Terraform best practices and real-world implementations
-- **CI/CD Optimization**: GitHub Actions and deployment automation
-- **Cloud Architecture**: AWS services and architectural patterns
-
-## 🤝 Contributing
-
-This is a personal blog repository, but if you notice any issues or have suggestions:
-
-1. Fork the repository
-2. Create a feature branch
-3. Submit a pull request
-
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
@@ -185,9 +168,3 @@ This project is open source and available under the [MIT License](LICENSE).
 
 - **[buildwithem-infra](https://github.com/em-scrn/buildwithem-infra)** - Terraform infrastructure code
 - **[Blowfish Theme](https://github.com/nunocoracao/blowfish)** - Hugo theme used for this site
-
-## 📬 Contact
-
-- **Website**: [buildwithem.com](https://buildwithem.com)
-
----
