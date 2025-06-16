@@ -4,7 +4,7 @@ description: "Learn more about my journey in DevOps and cloud engineering"
 showTableOfContents: false
 showDate: false
 showReadingTime: false
-
+showRelatedContent: false
 ---
 
 ## My Journey
