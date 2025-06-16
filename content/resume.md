@@ -10,7 +10,7 @@ showReadingTime: false
 
 **Eunice Socorin | DevOps Engineer**
 
-📧 eunice.socorin@gmail.com | 🔗 [LinkedIn](https://linkedin.com/in/eunicesocorin) | 📍 Melbourne, Australia
+📧 eunice.socorin@gmail.com | 🔗 [LinkedIn](www.linkedin.com/in/eunice-socorin) | 📍 Melbourne, Australia
 
 
 ## Professional Summary
