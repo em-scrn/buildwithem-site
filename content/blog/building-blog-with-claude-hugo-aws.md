@@ -15,8 +15,6 @@ This post details exactly how I used Claude to build this very blog you're readi
 
 ## The Stack: Why These Technologies?
 
-![Hugo Static Site Architecture](/img/hugo_site_diagram.png)
-
 Before diving into the implementation, let me explain why I chose this particular stack:
 
 ### [Hugo](https://gohugo.io/) + [Blowfish Theme](https://blowfish.page/)
@@ -26,6 +24,9 @@ Before diving into the implementation, let me explain why I chose this particula
 - **Minimal**: Blowfish theme offers modern design with dark/light modes
 
 ### AWS Infrastructure
+
+![Hugo Static Site Architecture](/img/hugo_site_diagram.png)
+
 - **[S3](https://aws.amazon.com/s3/) + [CloudFront](https://aws.amazon.com/cloudfront/)**: Cost-effective global content delivery
 - **[AWS Web Application Firewall (WAF)](https://aws.amazon.com/waf/)**: Built-in security against common web attacks
 - **[Route53](https://aws.amazon.com/route53/)**: Professional DNS management
