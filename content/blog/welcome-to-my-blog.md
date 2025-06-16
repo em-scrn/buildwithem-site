@@ -1,5 +1,5 @@
 ---
-title: "Welcome to Blog"
+title: "Welcome to my Blog"
 date: 2025-06-09
 description: "Why I started this blog and what you can expect to find here"
 tags: ["meta", "devops", "blogging"]

@@ -5,6 +5,7 @@ description: "How I used Claude AI to create a complete Hugo blog with Blowfish 
 tags: ["claude", "hugo", "aws", "terraform", "automation", "ai-assisted-development"]
 categories: ["DevOps", "AI Tools"]
 showHero: false
+showPagination: false
 ---
 
 ## Why I Built This Blog (And Why You Should Build Your Own)
