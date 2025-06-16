@@ -7,9 +7,11 @@ Visit the live site at: [buildwithem.com](https://buildwithem.com)
 
 ## 🛠️ Tech Stack
 
+![Hugo Static Site Architecture](static/img/hugo_site_diagram.png)
+
 - **[Hugo](https://gohugo.io/)** - Fast static site generator
 - **[Blowfish Theme](https://blowfish.page/)** - Modern, responsive Hugo theme
-- **[AWS S3 + CloudFront](https://aws.amazon.com/)** - Global content delivery and hosting
+- **[AWS S3 + WAF + CloudFront](https://aws.amazon.com/)** - Global content delivery and hosting
 - **[GitHub Actions](https://github.com/features/actions)** - Automated CI/CD pipeline
 - **[Terraform](https://www.terraform.io/)** - Infrastructure as Code (see [buildwithem-infra](https://github.com/em-scrn/buildwithem-infra))
 

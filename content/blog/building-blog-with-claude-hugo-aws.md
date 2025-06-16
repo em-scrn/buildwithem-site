@@ -15,6 +15,8 @@ This post details exactly how I used Claude to build this very blog you're readi
 
 ## The Stack: Why These Technologies?
 
+![Hugo Static Site Architecture](/img/hugo_site_diagram.png)
+
 Before diving into the implementation, let me explain why I chose this particular stack:
 
 ### [Hugo](https://gohugo.io/) + [Blowfish Theme](https://blowfish.page/)
